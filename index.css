@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1E0E62;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    height: 1px;
+    margin-left: 20px;
+    margin-top: -25px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu ul li {
+    margin-right: 70px;
+    
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.7;
+}
+
+.menu a:hover {
+    opacity: 1;
+}
+
+.purchase {
+    background-color: #E93A7D;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: -10px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    margin-top: -110px;
+}
+
+.left {
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+    height: 456px;
+    line-height: 42px;
+}
+
+.left h1 {
+    font-size: 56px;
+    margin-bottom: 20px;
+    line-height: 70px;
+    letter-spacing: -1px;
+    width: 424px;
+    height: 212px;
+}
+
+.left p {
+    font-size: 22px;
+    line-height: 32px;
+    top: 460px;
+    left: 212px;
+    width: 360px;
+    height: 160px;
+}
+
+.learn-more {
+    background-color: #E93A7D;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.right {
+    flex: 1;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    height: 456px;
+    
+}
+
+.right h2 {
+    font-size:42px;
+    color: #1E0E62;
+    margin-bottom: 20px;
+    line-height: 52px;
+    letter-spacing: -0.4px;
+}
+
+form input {
+    width: 50%;
+    margin: 10px 0 0px 10px;
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border-radius: 20px;
+    
+}
+
+form p{
+    color: gray
+}
+
+
+.signup-btn {
+    background-color:
+    #482BE7;
+    border: none;
+    color: #EBEAED;
+    padding: 10px 20px;
+    cursor: pointer;
+    height: 40px;
+    width: 330px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+#or {
+    position: relative;
+    width: 300px;
+    height: 50px;
+    color:#EBEAED;
+    line-height: 50px;
+    text-align: center;
+    left: 165px;
+  }
+  
+  #or::before,
+  #or::after {
+    position: absolute;
+    width: 130px;
+    height: 1px;
+    
+    top: 24px;
+    
+    background-color: #EBEAED;
+    
+    content: '';
+  }
+  
+  #or::before {
+    left: 0;
+  }
+  
+  #or::after {
+    right: 0;
+  }
+
+  .twitter-btn {
+    background-color:
+    #1DA1F2;
+    border: none;
+    color: #EBEAED;
+    padding: 10px 20px;
+    cursor: pointer;
+    height: 40px;
+    width: 330px;
+    border-radius: 20px;
+    right: 20px;
+    margin-left: 10px;
+}
+
+
